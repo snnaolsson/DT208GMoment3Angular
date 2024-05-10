@@ -1,0 +1,29 @@
+header{
+    height: 100px;
+    background-color: rgb(251, 198, 141);
+
+    nav{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    ul{
+        display: flex;
+        text-align: center;
+      
+    }
+    li{
+        list-style: none;
+        padding: 2%;
+      
+    }
+    a{
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+}
+.current{
+    font-weight: bold;
+
+}
