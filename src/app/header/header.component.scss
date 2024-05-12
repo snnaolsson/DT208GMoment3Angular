@@ -18,9 +18,19 @@ header{
         padding: 2%;
       
     }
-    a{
-        font-size: 1.5rem;
-        text-decoration: none;
+    
+}
+a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    &:hover{
+        font-style: italic;
+    }
+    &:visited{
+        color: black;
+    }
+    &:active{
+        color: black;
     }
 }
 .current{
