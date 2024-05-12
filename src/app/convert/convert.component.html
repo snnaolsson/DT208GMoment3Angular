@@ -1,2 +1,14 @@
 <h1>Konverteraren</h1>
 
+
+<div id="degreeDiv">
+    <div>
+        <label for="convertInput">Värde som du vill konvertera</label>
+        <input type="number" id="convertInput" [(ngModel)]="inputNumber">
+    </div>
+<button (click)="convertFtoC()">Konvertera Fahrenheit till Celcius</button>
+<button (click)="convertCtoF()">Konvertera Celcius till Fahrenheit</button>
+<button (click)="convertMtoF()">Konvertera Meter till Feet</button>
+<button (click)="convertFtoM()">Konvertera Feet till Meter</button>
+
+<div id="resultEl"><p>{{inputNumber}} {{inputType}} = {{result}} {{measurement}}</p></div>

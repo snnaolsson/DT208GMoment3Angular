@@ -9,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
+  codeImg: string = 'assets/imgs/code.jpg';
 }
