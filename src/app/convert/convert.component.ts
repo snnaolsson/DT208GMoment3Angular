@@ -24,7 +24,7 @@ export class ConvertComponent {
   }
   //celcius konverterat till fahrenheit
   convertCtoF():void{
-this.result = this.inputNumber*2+30;
+this.result = (this.inputNumber*2)+30;
 this.measurement = 'Fahrenheit';
 this.inputType='Celcius';
   }
